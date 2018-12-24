@@ -17,9 +17,9 @@ export default {
       {
         path: '/dashboard',
         routes: [
-          { path: '/dashboard/analysis', component: '../Dashboard/Analysis' },
-          { path: '/dashboard/monitor', component: '../Dashboard/Monitor' },
-          { path: '/dashboard/workplace', component: '../Dashboard/Workplace' }
+          { path: '/dashboard/analysis', component: '../page/Dashboard/Analysis' },
+          { path: '/dashboard/monitor', component: '../page/Dashboard/Monitor' },
+          { path: '/dashboard/workplace', component: '../page/Dashboard/Workplace' }
         ]
       },
     ]

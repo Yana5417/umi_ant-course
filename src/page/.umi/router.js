@@ -21,17 +21,17 @@ let routes = [
         "routes": [
           {
             "path": "/dashboard/analysis",
-            "component": require('../../Dashboard/Analysis').default,
+            "component": require('../Dashboard/Analysis').default,
             "exact": true
           },
           {
             "path": "/dashboard/monitor",
-            "component": require('../../Dashboard/Monitor').default,
+            "component": require('../Dashboard/Monitor').default,
             "exact": true
           },
           {
             "path": "/dashboard/workplace",
-            "component": require('../../Dashboard/Workplace').default,
+            "component": require('../Dashboard/Workplace').default,
             "exact": true
           },
           {
