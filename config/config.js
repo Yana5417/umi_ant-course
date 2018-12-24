@@ -1,9 +1,13 @@
 export default {
+  singular: true,
   plugins: [
     ['umi-plugin-react', {
       // 这里暂时还没有添加配置，该插件还不会有作用
       antd: true,
-      dva: true
+      dva: true,
+      locale: {
+        enable: true
+      }
     }],
   ],
   routes: [{
@@ -12,7 +16,7 @@ export default {
     routes: [
       {
         path: '/',
-        component: './HelloWorld'
+        component: './index'
       },
       {
         path: '/dashboard',
@@ -24,4 +28,10 @@ export default {
       },
     ]
   }],
+  // proxy: { // 代理服务器
+  //   '/dev': {
+  //     target: 'https://08ad1pao69.execute-api.us-east-1.amazonaws.com',
+  //     changeOrigin: true,
+  //   }
+  // }
 };
