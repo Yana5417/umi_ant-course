@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { Layout } from 'antd';
-import SiderMenu from '../component/SiderMenu/SiderMenu';
+import SiderMenu from '../component/SiderMenu/SiderMenu_antd';
 import { getMenuData } from '../common/menu';
 import logo from '../assets/logo.png';
 import GlobalHeader from '../component/GlobalHeader';

@@ -8,7 +8,6 @@ export function isUrl(path) {
 const menuData = [
   {
     name: 'Pages',
-    icon: 'dashboard',
     path: 'dashboard',
     children: [
       {
@@ -21,15 +20,12 @@ const menuData = [
       },
       {
         name: '工作台',
-        path: 'workplace',
-        // hideInBreadcrumb: true,
-        // hideInMenu: true,
+        path: 'workplace'
       },
     ],
   },
   {
     name: 'typescript',
-    icon: 'dashboard',
     path: 'typescript',
   }
 ];
